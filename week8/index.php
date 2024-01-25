@@ -89,7 +89,7 @@
         </div>
         <ul class="nav">
           <li>
-            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+            <a href="home" class="active"><i class="fa fa-home"></i> Home</a>
           </li>
           <li>
             <a href="#about"><i class="fa fa-user"></i> About</a>

@@ -669,7 +669,7 @@ Enthusiastically embracing the forefront of technology and design, I specialize 
 YOU CAN MESSAGE ME IN WHATSAPP :) 
             </h3>
             <!-- Contact Form -->
-            <form name="contact" method="POST" action="forms.php">
+            <form name="contact" method="POST" action="success_page.php">
               <div class="row">
                   <div class="contact-form padd-15">
                       <div class="row">
@@ -730,6 +730,31 @@ YOU CAN MESSAGE ME IN WHATSAPP :)
     </div>
     <!-- Style Switcher End -->
     <!--JS FILES-->
+    <script>
+      function showModal() {
+            // Show the modal and overlay
+            document.getElementById('myModal').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+
+        function closeModal() {
+            // Close the modal and overlay
+            document.getElementById('myModal').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+
+            // Redirect to a different page after the modal is closed
+            window.location.href = "success_page.php";
+        }
+    </script>
+    <script>
+        function showPopup() {
+            // Show a simple popup message
+            alert("Form submitted successfully!");
+
+            // Redirect to a different page after the popup
+            window.location.href = "success_page.php";
+        }
+    </script> 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
       referrerpolicy="noopener"

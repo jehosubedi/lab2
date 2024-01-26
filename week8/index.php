@@ -669,65 +669,41 @@ Enthusiastically embracing the forefront of technology and design, I specialize 
 YOU CAN MESSAGE ME IN WHATSAPP :) 
             </h3>
             <!-- Contact Form -->
-            <form name="contact" method="POST">
-              <!-- remove action if not used by php -->
+            <form name="contact" method="POST" action="forms.php">
               <div class="row">
-                <div class="contact-form padd-15">
-                  <div class="row">
-                    <div class="form-item col-12 padd-15">
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder=" Full Name"
-                          required
-                        />
+                  <div class="contact-form padd-15">
+                      <div class="row">
+                          <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                  <input type="text" name="fullName" class="form-control" placeholder="Full Name" required />
+                              </div>
+                          </div>
+                          <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                  <input type="email" name="email" class="form-control" placeholder="Email" required />
+                              </div>
+                          </div>
+                          <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                  <input id="phone" name="phone" class="form-control" placeholder="Contact No:" required />
+                              </div>
+                          </div>
                       </div>
-                    </div>
-                    <div class="form-item col-6 padd-15">
-                      <div class="form-group">
-                        <input
-                          type="email"
-                          class="form-control"
-                          placeholder="Email"
-                          required
-                        />
-                        <!-- remove name="" if being revised -->
+                      <div class="row">
+                          <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                  <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                              </div>
+                          </div>
                       </div>
-                    </div>
-                    <div class="form-item col-6 padd-15">
-                      <div class="form-group">
-                        <input
-                          id="phone"
-                          class="form-control"
-                          placeholder="Contact No:"
-                          required
-                        />
+                      <div class="row">
+                          <div class="form-item col-12 padd-15">
+                              <button type="submit" class="btn">Message <i class="fas fa-paper-plane"></i></button>
+                          </div>
                       </div>
-                    </div>
                   </div>
-                  <div class="row">
-                    <div class="form-item col-12 padd-15">
-                      <div class="form-group">
-                        <textarea
-                          name=""
-                          class="form-control"
-                          id=""
-                          placeholder="Message"
-                        ></textarea>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12 padd-15">
-                      <button type="submit" class="btn">
-                        Message <i class="fas fa-paper-plane"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
-            </form>
+            </form> 
           </div>
         </section>
         <!--Contact Section End-->

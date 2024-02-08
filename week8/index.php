@@ -669,7 +669,7 @@ Enthusiastically embracing the forefront of technology and design, I specialize 
 YOU CAN MESSAGE ME IN WHATSAPP :) 
             </h3>
             <!-- Contact Form -->
-            <form name="contact" method="POST" action="forms.php">
+            <form name="contact" method="POST" action="form.php">
               <div class="row">
                   <div class="contact-form padd-15">
                       <div class="row">
